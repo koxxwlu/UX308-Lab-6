@@ -7,3 +7,5 @@
 [13-Mar-2025 23:53:17 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 32768 bytes) in /workspaces/UX308-Lab-6/.wordpress/wp-admin/includes/plugin.php on line 1550
 [13-Mar-2025 23:53:34 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 188416 bytes) in /workspaces/UX308-Lab-6/.wordpress/wp-includes/blocks/index.php on line 46
 [13-Mar-2025 23:53:34 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 32768 bytes) in /workspaces/UX308-Lab-6/.wordpress/wp-admin/includes/plugin.php on line 1550
+[13-Mar-2025 23:54:06 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 188416 bytes) in /workspaces/UX308-Lab-6/.wordpress/wp-includes/blocks/index.php on line 46
+[13-Mar-2025 23:54:06 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 32768 bytes) in /workspaces/UX308-Lab-6/.wordpress/wp-admin/includes/plugin.php on line 1550
