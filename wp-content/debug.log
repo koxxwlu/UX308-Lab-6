@@ -1,0 +1,9 @@
+[13-Mar-2025 23:52:53 UTC] PHP Fatal error:  Out of memory (allocated 41943040) (tried to allocate 126976 bytes) in /workspaces/UX308-Lab-6/.wordpress/wp-includes/script-loader.php on line 2923
+[13-Mar-2025 23:53:01 UTC] PHP Fatal error:  Out of memory (allocated 37748736) (tried to allocate 2097152 bytes) in /workspaces/UX308-Lab-6/.wordpress/wp-content/plugins/ecommerce-product-catalog/functions/functions.php on line 1833
+[13-Mar-2025 23:53:03 UTC] PHP Fatal error:  Out of memory (allocated 33554432) (tried to allocate 2097152 bytes) in /workspaces/UX308-Lab-6/.wordpress/wp-content/plugins/ecommerce-product-catalog/functions/functions.php on line 1824
+[13-Mar-2025 23:53:06 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX308-Lab-6/.wordpress/wp-content/plugins/ecommerce-product-catalog/ext-comp/index.php on line 81
+[13-Mar-2025 23:53:08 UTC] PHP Fatal error:  Out of memory (allocated 29360128) (tried to allocate 2097152 bytes) in /workspaces/UX308-Lab-6/.wordpress/wp-content/plugins/ecommerce-product-catalog/ext-comp/index.php on line 81
+[13-Mar-2025 23:53:17 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 188416 bytes) in /workspaces/UX308-Lab-6/.wordpress/wp-includes/blocks/index.php on line 46
+[13-Mar-2025 23:53:17 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 32768 bytes) in /workspaces/UX308-Lab-6/.wordpress/wp-admin/includes/plugin.php on line 1550
+[13-Mar-2025 23:53:34 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 188416 bytes) in /workspaces/UX308-Lab-6/.wordpress/wp-includes/blocks/index.php on line 46
+[13-Mar-2025 23:53:34 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 32768 bytes) in /workspaces/UX308-Lab-6/.wordpress/wp-admin/includes/plugin.php on line 1550
