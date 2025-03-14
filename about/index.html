@@ -40,6 +40,12 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <style id='wp-block-post-terms-inline-css'>
 .wp-block-post-terms{box-sizing:border-box}.wp-block-post-terms .wp-block-post-terms__separator{white-space:pre-wrap}
 </style>
+<style id='wp-block-separator-inline-css'>
+@charset "UTF-8";.wp-block-separator{border:none;border-top:2px solid}:root :where(.wp-block-separator.is-style-dots){height:auto;line-height:1;text-align:center}:root :where(.wp-block-separator.is-style-dots):before{color:currentColor;content:"···";font-family:serif;font-size:1.5em;letter-spacing:2em;padding-left:2em}.wp-block-separator.is-style-dots{background:none!important;border:none!important}
+</style>
+<style id='wp-block-heading-inline-css'>
+h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-background,h6.has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+</style>
 <style id='wp-block-post-content-inline-css'>
 .wp-block-post-content{display:flow-root}
 </style>
@@ -48,9 +54,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 </style>
 <style id='wp-block-comments-inline-css'>
 .wp-block-post-comments{box-sizing:border-box}.wp-block-post-comments .alignleft{float:left}.wp-block-post-comments .alignright{float:right}.wp-block-post-comments .navigation:after{clear:both;content:"";display:table}.wp-block-post-comments .commentlist{clear:both;list-style:none;margin:0;padding:0}.wp-block-post-comments .commentlist .comment{min-height:2.25em;padding-left:3.25em}.wp-block-post-comments .commentlist .comment p{font-size:1em;line-height:1.8;margin:1em 0}.wp-block-post-comments .commentlist .children{list-style:none;margin:0;padding:0}.wp-block-post-comments .comment-author{line-height:1.5}.wp-block-post-comments .comment-author .avatar{border-radius:1.5em;display:block;float:left;height:2.5em;margin-right:.75em;margin-top:.5em;width:2.5em}.wp-block-post-comments .comment-author cite{font-style:normal}.wp-block-post-comments .comment-meta{font-size:.875em;line-height:1.5}.wp-block-post-comments .comment-meta b{font-weight:400}.wp-block-post-comments .comment-meta .comment-awaiting-moderation{display:block;margin-bottom:1em;margin-top:1em}.wp-block-post-comments .comment-body .commentmetadata{font-size:.875em}.wp-block-post-comments .comment-form-author label,.wp-block-post-comments .comment-form-comment label,.wp-block-post-comments .comment-form-email label,.wp-block-post-comments .comment-form-url label{display:block;margin-bottom:.25em}.wp-block-post-comments .comment-form input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments .comment-form textarea{box-sizing:border-box;display:block;width:100%}.wp-block-post-comments .comment-form-cookies-consent{display:flex;gap:.25em}.wp-block-post-comments .comment-form-cookies-consent #wp-comment-cookies-consent{margin-top:.35em}.wp-block-post-comments .comment-reply-title{margin-bottom:0}.wp-block-post-comments .comment-reply-title :where(small){font-size:var(--wp--preset--font-size--medium,smaller);margin-left:.5em}.wp-block-post-comments .reply{font-size:.875em;margin-bottom:1.4em}.wp-block-post-comments input:not([type=submit]),.wp-block-post-comments textarea{border:1px solid #949494;font-family:inherit;font-size:1em}.wp-block-post-comments input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments textarea{padding:calc(.667em + 2px)}:where(.wp-block-post-comments input[type=submit]){border:none}
-</style>
-<style id='wp-block-heading-inline-css'>
-h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-background,h6.has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
 </style>
 <style id='wp-block-post-date-inline-css'>
 .wp-block-post-date{box-sizing:border-box}
@@ -86,6 +89,7 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 :root :where(.wp-block-post-terms){font-size: var(--wp--preset--font-size--small);font-weight: 600;}:root :where(.wp-block-post-terms a){white-space: nowrap;}
 :root :where(.wp-block-post-title a:where(:not(.wp-element-button))){text-decoration: none;}
 :root :where(.wp-block-post-title a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
+:root :where(.wp-block-separator){border-color: currentColor;border-width: 0 0 1px 0;border-style: solid;color: var(--wp--preset--color--accent-6);}
 :root :where(.wp-block-site-tagline){font-size: var(--wp--preset--font-size--medium);}
 :root :where(.wp-block-site-title){font-weight: 700;letter-spacing: -.5px;}
 :root :where(.wp-block-site-title a:where(:not(.wp-element-button))){text-decoration: none;}
@@ -112,8 +116,8 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 	}
 </style>
 <link rel='stylesheet' id='dashicons-css' href='/UX308-Lab-6/wp-includes/css/dashicons.min.css?ver=6.7.2' media='all' />
-<link rel='stylesheet' id='al_product_styles-css' href='/UX308-Lab-6/wp-content/plugins/ecommerce-product-catalog/css/al_product.min.css?timestamp=1741911914&#038;ver=6.7.2' media='all' />
-<link rel='stylesheet' id='ic_blocks-css' href='/UX308-Lab-6/wp-content/plugins/ecommerce-product-catalog/includes/blocks/ic-blocks.min.css?timestamp=1741911914&#038;ver=6.7.2' media='all' />
+<link rel='stylesheet' id='al_product_styles-css' href='/UX308-Lab-6/wp-content/plugins/ecommerce-product-catalog/css/al_product.min.css?timestamp=1741913103&#038;ver=6.7.2' media='all' />
+<link rel='stylesheet' id='ic_blocks-css' href='/UX308-Lab-6/wp-content/plugins/ecommerce-product-catalog/includes/blocks/ic-blocks.min.css?timestamp=1741913103&#038;ver=6.7.2' media='all' />
 <style id='core-block-supports-inline-css'>
 .wp-container-core-navigation-is-layout-1{justify-content:flex-end;}.wp-container-core-group-is-layout-1{flex-wrap:nowrap;gap:var(--wp--preset--spacing--10);justify-content:flex-end;}.wp-container-core-group-is-layout-2{flex-wrap:nowrap;justify-content:space-between;}.wp-container-core-group-is-layout-5{gap:0.2em;}.wp-container-core-group-is-layout-7{flex-wrap:nowrap;justify-content:space-between;}.wp-container-core-group-is-layout-10{flex-wrap:nowrap;justify-content:space-between;align-items:center;}.wp-container-core-post-template-is-layout-1 > *{margin-block-start:0;margin-block-end:0;}.wp-container-core-post-template-is-layout-1 > * + *{margin-block-start:0;margin-block-end:0;}.wp-container-core-columns-is-layout-1{flex-wrap:nowrap;}.wp-container-core-navigation-is-layout-2{flex-direction:column;align-items:flex-start;}.wp-container-core-navigation-is-layout-3{flex-direction:column;align-items:flex-start;}.wp-container-core-group-is-layout-13{gap:var(--wp--preset--spacing--80);justify-content:space-between;align-items:flex-start;}.wp-container-core-group-is-layout-14{justify-content:space-between;align-items:flex-start;}.wp-container-core-group-is-layout-15{gap:var(--wp--preset--spacing--20);justify-content:space-between;}
 </style>
@@ -239,6 +243,22 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 
 		<div class="entry-content alignfull wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
 <p>Build your powerful fleet with our affordable collection of population space fighter series. We offer different models ranging from bombers capable of pouring devastation upon your enemies, to precision fighters executing precision surprise attack.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading">Why choose us?</h2>
+
+
+
+<p>We are the premiere reseller of Sienar Fleet System equipments. All imports are genuine and passes safety regulations on Earth.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
 
 
 
